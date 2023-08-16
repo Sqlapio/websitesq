@@ -115,7 +115,7 @@ textarea {
 	border-top: none;
 	border-right: 0;
 	border-left: 0;
-	/* border-bottom: 2px solid #ffffff; */
+	border-bottom: 2px solid #ffffff;
 	font-size: 13px;
 	color: #a9a9a9;
 	line-height: 49px;
@@ -449,7 +449,7 @@ ul.dot-list li i {
 }
 
 .color-theme {
-	color: #45b1e8 !important
+	color: #ffffff !important
 }
 
 .color-white {
@@ -955,7 +955,7 @@ section {
 }
 
 .bg-gray {
-	background-color: #d0dde7 !important
+	background-color: #467696 !important
 }
 
 .bg-white {
@@ -999,7 +999,7 @@ section {
 }
 
 .bg-overlay-theme:before {
-	background-color: #fff;
+	background-color: rgba(255, 197, 39, 0.9);
 }
 
 .bg-overlay-gradient:before {
@@ -1255,8 +1255,7 @@ section {
 .accordion .panel-heading a:hover,
 .accordion .panel-heading a:focus,
 .accordion .panel-heading a:active {
-	text-decoration: none;
-	color: #467696;
+	text-decoration: none
 }
 
 .accordion .panel-heading .accordion-toggle:after {
@@ -3407,7 +3406,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .heading p:first-child {
 	font-size: 14px;
 	text-transform: ;
-	color: #2f2f2f;
+	color: #5a5a5a;
 	font-weight: 500;
 	line-height: 1;
 	padding-top: 20px;
@@ -3418,8 +3417,9 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .heading-p {
 	font-size: 22px;
 	font-weight: normal;
-	color: #2f2f2f;
+	color: #a2e8fa;
 	font-family: 'raleway', serif;
+	font-style: ;
 	line-height: 30px;
 }
 
@@ -4863,7 +4863,6 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .member .member-img img {
 	max-width: 100%;
 	height: auto;
-	width: 100%;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
@@ -4913,7 +4912,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	font-weight: 400;
 	line-height: 28px;
 	color: #fff;
-	margin: 13px;
+	margin-right: 35px;
 }
 
 .member .member-overlay a:hover {
@@ -5356,11 +5355,6 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	margin-bottom: 30px;
 }
 
-.service .service-img img {
-	width: 100%;
-    height: 250px;
-}
-
 .service .service-desc h4 {
 	margin-bottom: 20px;
 	color: #313131;
@@ -5381,7 +5375,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .service .service-desc p {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
 	line-height: 23px;
 	text-align: justify;
@@ -5790,7 +5784,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 /* service #8 */
 
 .service-8 .col-content {
-	background-color: #467696;
+	background-color: rgba(255,197,39,.9);
 	margin-top: 100px;
 	margin-bottom: 100px;
 	padding: 100px;
@@ -6523,7 +6517,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .projects2 .project-img .project-hover {
-	background-color: rgba(243, 142, 9, 0.902)
+	background-color: rgba(243, 142, 9, 0.9)
 }
 
 .projects2 .project-hover h6 {
@@ -6719,14 +6713,14 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	font-size: 55px;
 	font-weight: 700;
 	line-height: 50px;
-	color: #000000;
+	color: #fff;
 	text-transform: uppercase;
 	margin-bottom: 40px;
 }
 
 .cta-3 p,
 .cta-4 p {
-	color: #467696;
+	color: #f9f9f9;
 	font-family: 'Droid Serif', serif;
 	font-size: 17px;
 	font-weight: 700;
@@ -7818,7 +7812,7 @@ ul.comments-list ul.comment-children {
 	position: absolute;
 	bottom: 0;
 	display: inline-block;
-	background-color: #467696;
+	background-color: #f37309;
 }
 
 .sidebar .widget .widget-title h3 {
@@ -7845,7 +7839,7 @@ ul.comments-list ul.comment-children {
 }
 
 .widget-categories li.active {
-	background-color: #467696;
+	background-color: #f37309;
 }
 
 .widget-categories li.active a {
@@ -7859,7 +7853,7 @@ ul.comments-list ul.comment-children {
 }
 
 .widget-categories li:hover {
-	background-color: #467696;
+	background-color: #f37309;
 }
 
 .widget-categories li:hover a {
@@ -9146,11 +9140,11 @@ td.cart-product-quantity {
 }
 
 .contact .widgets-contact .widget-contact-icon i {
-	color: #467696
+	color: #f37309
 }
 
 .contact .widgets-contact .widget-contact-icon:after {
-	background-color: #467696;
+	background-color: #f27007;
 }
 
 .contact form {
@@ -9207,7 +9201,7 @@ input[aria-invalid="true"] {
 #FOOTER-SECTION
 \*------------------------------------*/
 footer {
-	background-color: #47525E;
+	background-color: #1f1f1f;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -9219,7 +9213,7 @@ footer hr {
 }
 
 .widgets-contact {
-	background-color: #47525E;
+	background-color: #161616;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -9246,7 +9240,7 @@ footer hr {
 	width: 2px;
 	height: 22px;
 	margin-left: 20px;
-	background-color: #467696;
+	background-color: #f37309;
 	display: inline-block
 }
 
@@ -9326,11 +9320,11 @@ footer hr {
 }
 
 .widgets-links ul li a:hover {
-	color: #467696 !important
+	color: #f37309 !important
 }
 
 .widget-social {
-	background-color: #47525E;
+	background-color: #1c1c1c;
 	padding-top: 34px;
 	padding-bottom: 34px;
 	padding-left: 0
@@ -9379,7 +9373,7 @@ footer hr {
 }
 
 .widget-social-icon a:hover {
-	background-color: #467696;
+	background-color: #f37309;
 	color: #222222
 }
 
@@ -9439,7 +9433,7 @@ footer hr {
 .widget-newsletter-form form .btn:hover,
 .widget-newsletter-form form .btn:focus {
 	border-color: transparent;
-	color: #467696
+	color: #f37309
 }
 
 .copyrights p {
@@ -9451,7 +9445,7 @@ footer hr {
 }
 
 .copyrights a {
-	color: #467696
+	color: #f37309
 }
 
 .copyrights a:hover,

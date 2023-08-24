@@ -5891,6 +5891,12 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	margin-left: auto
 }
 
+.service-3 .service-block {
+	margin-bottom: 30px;
+	margin-left: 20px;
+    width: 90%;
+}
+
 .service-1 .service-block,
 .service-3 .service-block,
 .service-5 .service-block,
@@ -9249,7 +9255,9 @@ input[aria-invalid="true"] {
 
 .contact .widgets-contact .widget {
 	margin-bottom: 30px;
+	padding-left: 27px;
 }
+
 }
 
 /*------------------------------------*\
@@ -9281,8 +9289,8 @@ footer hr {
 }
 
 .widgets-contact .widget-contact-icon {
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .widgets-contact .widget-contact-icon i {
@@ -9525,14 +9533,18 @@ footer hr {
 
 .widgets-contact .widget-contact-info p:last-child {
 	font-size: 12px;
+	width: 255px;
+    margin-left: 96px;
 }
 
 .widgets-contact .widget {
 	margin-bottom: 24px;
+	padding-left: 27px;
+	border-left: none
 }
 
 .widgets-contact .widget:last-of-type {
-	margin-bottom: 0
+	margin-bottom: 0;
 }
 
 .widgets-links .widget-about .widget-about-logo {
@@ -9579,6 +9591,8 @@ footer hr {
 .widgets-contact .widget,
 .widget-about {
 	margin-bottom: 24px;
+	padding-left: 15px;
+	border-left: none;
 }
 
 .widgets-links {

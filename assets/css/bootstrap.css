@@ -1603,6 +1603,11 @@ pre code {
     width: 1170px;
   }
 }
+@media (min-width: 1200px) {
+  .container-pricing  {
+    width: 1700px !important;
+  }
+}
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;

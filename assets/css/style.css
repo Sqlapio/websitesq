@@ -985,11 +985,11 @@ section {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-ms-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-ms-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -2146,8 +2146,8 @@ transform: scale(1.0);
 }
 
 .header-8 .top-bar-contact li.widget {
-	width: 332px;
-	height: 79px;
+	width: 295px;
+	height: 75px;
 	border: 1px solid rgba(49, 49, 49, 0.08);
 	line-height: 79px;
 }
@@ -2177,7 +2177,7 @@ transform: scale(1.0);
 
 .header-8 .widget-contact-info {
 	margin-top: 16px;
-	padding-left: 85px;
+	padding-left: 64px;
 }
 
 .header-8 .widget-contact-info p:first-of-type {
@@ -2736,6 +2736,10 @@ ul.mega-menu {
 
 .header-5 .navbar .logo {
 	position: relative
+}
+
+.header-8 .navbar .logo img {
+	width: 150px;
 }
 }
 
@@ -4013,6 +4017,12 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 479px) {
 
+.hero-slider .owl-controls .owl-nav div {
+	width: 20px;
+    height: 44px;
+    line-height: 44px;
+}
+
 .rev_slider h1 {
 	font-size: 17px !important
 }
@@ -4029,7 +4039,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .hero-slider .item {
-	height: 500px;
+	height: 230px;
 	text-align: center
 }
 
@@ -4093,7 +4103,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .hero-slider .item {
-	height: 550px;
+	height: 300px;
 	text-align: center
 }
 
@@ -9553,7 +9563,7 @@ footer hr {
 
 .widgets-contact .widget-contact-info p:last-child {
 	font-size: 12px;
-	width: 255px;
+	width: 195px;
     margin-left: 96px;
 }
 

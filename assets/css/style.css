@@ -908,6 +908,14 @@ section {
 .ml-30-xs {
 	margin-left: 30px !important;
 }
+
+.mr-0-xs {
+	margin-right: 0;
+}
+
+.pr-0-xs {
+	padding-right: 0;
+}
 }
 
 @media only screen and (min-width : 768px) and (max-width : 991px) {
@@ -4058,6 +4066,12 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .hero-3 .cta-form .cta .cta-desc h5 {
 	margin-bottom: 0
 }
+
+.hero-slider .owl-controls {
+	position: absolute;
+	left: 30px;
+	bottom: 35px;
+}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -4104,6 +4118,12 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 .hero-3 .cta-form .cta .cta-desc h5 {
 	margin-bottom: 0
+}
+
+.hero-slider .owl-controls {
+	position: absolute;
+	left: 30px;
+	bottom: 35px;
 }
 }
 

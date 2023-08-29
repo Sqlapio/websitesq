@@ -4021,8 +4021,8 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 .hero-slider .owl-controls .owl-nav div {
 	width: 20px;
-    height: 44px;
-    line-height: 44px;
+    height: 32px;
+    line-height: 33px;
 }
 
 .rev_slider h1 {
@@ -4081,8 +4081,8 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 .hero-slider .owl-controls {
 	position: absolute;
-	left: 30px;
-	bottom: 35px;
+	left: 5px;
+	bottom: 2px;
 }
 }
 

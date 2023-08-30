@@ -1231,6 +1231,22 @@ section {
 	border-color: #fff;
 }
 
+.btn-ingresa img {
+	width: 200px;
+	display: block;
+}
+
+.btn-ingresa img:last-of-type {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+}
+  
+  .btn-ingresa:hover img {
+	opacity: 1;
+  }
+
 /*------------------------------------*\
 #ACCORDION
 \*------------------------------------*/
@@ -2688,6 +2704,10 @@ ul.mega-menu {
 	line-height: 94px
 }
 
+.header-8 .navbar .logo img{
+	width: 200px;
+}
+
 .header-8 + section {
 	margin-top: 0;
 	padding-top: 0
@@ -3829,7 +3849,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .hero-slider .item {
-	height: 650px;
+	height: 550px;
 	position: relative
 }
 

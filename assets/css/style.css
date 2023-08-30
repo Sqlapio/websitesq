@@ -3848,7 +3848,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .hero-slider .item {
-	height: 550px;
+	height: 60vh;
 	position: relative
 }
 
@@ -4123,6 +4123,12 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	font-size: 12px;
 }
 
+.hero-slider .owl-controls .owl-nav div {
+	width: 20px;
+    height: 32px;
+    line-height: 33px;
+}
+
 .hero-slider .item {
 	height: 245px;
 	text-align: center
@@ -4153,13 +4159,25 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 .hero-slider .owl-controls {
 	position: absolute;
-	left: 30px;
-	bottom: 35px;
+	left: 5px;
+	bottom: 2px;
 }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) and (max-width : 991px) {
+
+.hero-slider .owl-controls .owl-nav div {
+	width: 20px;
+	height: 32px;
+	line-height: 33px;
+}
+
+.hero-slider .owl-controls {
+	position: absolute;
+	left: 5px;
+	bottom: 2px;
+}
 
 .rev_slider .arrow {
 	height: 51px
@@ -4257,6 +4275,17 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 .hero-3 .cta-form {
 	margin-top: -124px;
+}
+
+.hero-slider .owl-controls {
+	position: absolute;
+	left: 40px;
+	bottom: 35px;
+}
+
+.hero-slider .item {
+    height: 50vh;
+    position: relative;
 }
 }
 

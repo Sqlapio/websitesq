@@ -7229,10 +7229,15 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .pricing .panel-body {
-	height: 220px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	height: 157px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 	background-color: #467696;
+	border-radius: 25px;
+	top: 39px;
+    position: relative;
+    width: 70%;
+    left: 15%;
 }
 
 .pricing .panel-body-free {
@@ -7240,7 +7245,9 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #467696;
+	
 }
+
 .pricing .panel-body-free h4 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -7269,9 +7276,9 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .pricing .panel-body p {
-	color: #313131;
+	color: #2d3f50;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 23px;
 	font-weight: 700;
 	line-height: 1;
 	text-transform: uppercase;
@@ -7280,7 +7287,11 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 .pricing .list-group {
 	padding: 50px;
-	background-color: #f9f9f9
+	background-color: #f9f9f9;
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 2px solid #467696;
+    border-bottom: none;
 }
 
 .pricing .list-group li.list-group-item {
@@ -7312,6 +7323,10 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	-webkit-border-radius: 0;
 	border-radius: 0;
 	padding: 0 50px 50px 50px;
+	border: 2px solid #467696;
+    border-top: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .pricing .panel-footer .btn {
@@ -7321,34 +7336,37 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) and (max-width : 991px) {
 
-.pricing .panel-body {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	line-height: 30px;
-}
+	.pricing .panel-body {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		line-height: 30px;
+	}
 
-.pricing .panel-body h4 {
-	font-size: 70px;
-}
+	.pricing .panel-body h4 {
+		font-size: 70px;
+	}
 
-.pricing .list-group {
-	padding: 25px;
-}
+	.pricing .list-group {
+		padding: 25px;
+	}
 
-.pricing .panel-footer {
-	padding: 0 25px 25px 25px;
-}
+	.pricing .panel-footer {
+		padding: 0 25px 25px 25px;
+	}
 
-.pricing .panel-footer .btn {
-	font-size: 11px;
-	padding: 0 16px;
-}
+	.pricing .panel-footer .btn {
+		font-size: 11px;
+		padding: 0 16px;
+	}
 
-.pricing .panel-footer .btn i {
-	margin-left: 5px
-}
-}
+	.pricing .panel-footer .btn i {
+		margin-left: 5px
+	}
 
+	.pricing .panel-body p {
+		font-size: 20px;
+	}
+}
 /*------------------------------------*\
 #BLOG-SECTION
 \*------------------------------------*/

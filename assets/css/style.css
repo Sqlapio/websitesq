@@ -154,7 +154,7 @@ button.btn {
 
 @media (min-width: 1200px) {
 	.container-pricing  {
-	  width: 90% !important;
+	  width: 100% !important;
 	}
   }
 
@@ -5487,6 +5487,17 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	.pricing .panel-body p {
+		font-size: 18px !important;
+	}
+
+	.pricing .panel-body h4 {
+		font-size: 40px;
+	}
+
+	.pricing .list-group {
+		height: 415px;
+	}
 }
 
 /*------------------------------------*\

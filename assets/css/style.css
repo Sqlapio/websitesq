@@ -1004,13 +1004,13 @@ section {
 .bg-section2 {
 	position: relative;
 	overflow: hidden;
-	/* z-index: 1; */
+	z-index: 1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* background-attachment: fixed; */
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 100%;
@@ -1020,11 +1020,11 @@ section {
 @media only screen and (min-width : 320px) and (max-width : 576px) {
 
 	.bg-section2 {
-		-webkit-background-size: contain;
-		-moz-background-size: contain;
-		-ms-background-size: contain;
-		-o-background-size: contain;
-		background-size: contain;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-ms-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
 	}
 }
 
@@ -1263,20 +1263,20 @@ section {
 }
 
 .btn-ingresa img {
-	width: 200px;
-	display: block;
+	width: 77%;
+	/* display: block; */
 }
 
-.btn-ingresa img:last-of-type {
+/* .btn-ingresa img:last-of-type {
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	opacity: 0;
-}
+} */
   
-.btn-ingresa:hover img {
+/* .btn-ingresa:hover img {
 	opacity: 1;
-}
+} */
 
 /*------------------------------------*\
 #ACCORDION
@@ -2112,7 +2112,7 @@ transform: scale(1.0);
 }
 
 .header-8 + section {
-	margin-top: 23px;
+	margin-top: 15px;
 }
 
 .header-8 .outer {
@@ -3879,7 +3879,8 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .hero-slider .item {
-	height: 60vh;
+	height: 57vh;
+	/* height: 650px; */
 	position: relative
 }
 
@@ -4091,7 +4092,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .hero-slider .item {
-	height: 158px;
+	height: 177px;
 	text-align: center
 }
 

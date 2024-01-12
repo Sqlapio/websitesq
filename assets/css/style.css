@@ -1263,20 +1263,25 @@ section {
 }
 
 .btn-ingresa img {
+	width: 25%;
+	display: block;
+}
+
+.btn-ingresa-free img {
 	width: 77%;
 	/* display: block; */
 }
 
-/* .btn-ingresa img:last-of-type {
+.btn-ingresa img:last-of-type {
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	opacity: 0;
-} */
+}
   
-/* .btn-ingresa:hover img {
+.btn-ingresa:hover img {
 	opacity: 1;
-} */
+}
 
 /*------------------------------------*\
 #ACCORDION

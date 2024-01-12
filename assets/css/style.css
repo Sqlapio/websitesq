@@ -3436,7 +3436,12 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 992px) and (max-width : 1200px) {
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+.nav-ingresa {
+
+	left: 69% !important;
+}
 
 .navbar-nav > li {
 	margin-right: 16px
@@ -9999,6 +10004,19 @@ footer hr {
 	width: 100%;
 }
 
+.nav-ingresa {
+	
+	left: 79%;
+}
+
+@media (max-width : 991px) {
+
+	.nav-ingresa {
+	
+		left: 0;
+	}
+}
+
 /*------------------------------------*\
 #MAINTENACE
 \*------------------------------------*/
@@ -10034,47 +10052,50 @@ footer hr {
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 479px) {
 
-.mainten-page h1,
-.soon-title h1 {
-	font-size: 34px;
-}
+	.mainten-page h1,
+	.soon-title h1 {
+		font-size: 34px;
+	}
 
-.mainten-page,
-.soon-page {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	.mainten-page,
+	.soon-page {
+		padding-top: 80px;
+		padding-bottom: 80px;
 }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px)and (max-width : 767px ) {
 
-.mainten-page h1,
-.soon-title h1 {
-	font-size: 54px;
-}
+	.mainten-page h1,
+	.soon-title h1 {
+		font-size: 54px;
+	}
 
-.mainten-page,
-.soon-page {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	.mainten-page,
+	.soon-page {
+		padding-top: 120px;
+		padding-bottom: 120px;
 }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) and (max-width : 991px) {
 
-.mainten-page h1,
-.soon-title h1 {
-	font-size: 84px;
-	line-height: 1
+	.mainten-page h1,
+	.soon-title h1 {
+		font-size: 84px;
+		line-height: 1
+	}
+
+	.mainten-page,
+	.soon-page {
+		padding-top: 120px;
+		padding-bottom: 120px;
 }
 
-.mainten-page,
-.soon-page {
-	padding-top: 120px;
-	padding-bottom: 120px;
-}
+
+
 
 }
 

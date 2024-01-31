@@ -1701,8 +1701,8 @@ footer {
 
 /* Header #2 */
 .full-header {
-  height: 143px;
-  background-color: #fff;
+  height: 60px;
+  background-color: transparent;
   box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -moz-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -webkit-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
@@ -1812,7 +1812,7 @@ footer {
 }
 
 .full-header .navbar.affix {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .full-header .navbar-fixed-top.affix {

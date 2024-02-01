@@ -1283,6 +1283,19 @@ footer {
 	opacity: 1;
 } */
 
+.btn-reg {
+    border: 2px solid #29bced;
+    border-radius: 30px;
+    font-weight: 600;
+
+}
+
+.btn-reg:hover {
+  background-color: #29bced !important;
+  border-color: #29bced !important;
+  color: #ffffff !important;
+}
+
 /*------------------------------------*\
 #ACCORDION
 \*------------------------------------*/
@@ -1465,7 +1478,7 @@ footer {
 
 .navbar-nav > li {
   margin-right: 30px;
-  height: 94px;
+  height: 75px;
 }
 
 .navbar-nav li a {
@@ -1795,7 +1808,7 @@ footer {
 
 .full-header .navbar-fixed-top {
   top: 0px;
-  height: 94px;
+  height: 74px;
 }
 
 .full-header .navbar-nav > li > a {
@@ -10200,8 +10213,8 @@ footer hr {
 }
 
 .tp-mask-wrap {
-  top: 200px !important;
-  left: 305px !important;
+  top: 200px;
+  left: 305px;
   font-size: 43px;
   font-family: raleway;
   width: 500px !important;

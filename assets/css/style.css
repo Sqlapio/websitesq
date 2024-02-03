@@ -10230,3 +10230,9 @@ footer hr {
   transform: translate(-50%, -50%) !important;
   color: #29bced;
 }
+
+/* 
+.rev_slider_wrapper{
+	height: 100vh !important;
+  width: 100vw !important;
+} */

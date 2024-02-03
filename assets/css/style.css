@@ -1137,7 +1137,7 @@ footer {
   text-align: center;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  border-radius: 0;
+  border-radius: 40px;
   padding: 0;
   line-height: 49px;
   width: 170px;
@@ -1177,11 +1177,15 @@ footer {
   background-color: #467696;
   color: #fff;
   border: 2px solid #467696;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  
 }
 
 .btn-secondary:hover::before,
 .btn-secondary:hover::after {
   background-color: #467696;
+  
 }
 
 .btn-primary.btn-white {
@@ -1287,13 +1291,17 @@ footer {
     border: 2px solid #29bced;
     border-radius: 30px;
     font-weight: 600;
+    background-color: #29bced;
+    width: 50%;
+    padding: 13px;
+    color: #ffffff;
 
 }
 
 .btn-reg:hover {
-  background-color: #29bced !important;
+  background-color: transparent !important;
   border-color: #29bced !important;
-  color: #ffffff !important;
+  color: #29bced !important;
 }
 
 /*------------------------------------*\
@@ -10193,11 +10201,11 @@ footer hr {
 
 .text-p {
   position: absolute;
-  top: 260px;
-  left: 325px;
+  top: 257px;
+  left: 321px;
   transform: translate(-50%, -50%);
   color: black;
-  font-size: 36px;
+  font-size: 29px;
   width: 475px;
   line-height: 40px;
 }

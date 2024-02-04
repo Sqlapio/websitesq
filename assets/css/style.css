@@ -151,9 +151,11 @@ button.btn {
   background-color: rgba(34, 34, 34, 0.95);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .container-pricing {
     width: 100% !important;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -5519,7 +5521,7 @@ footer {
   }
 
   .pricing .list-group {
-    height: 415px;
+    height: 300px;
   }
 }
 
@@ -7249,15 +7251,15 @@ footer {
 }
 
 .pricing .panel-body {
-  height: 157px;
+  /* height: 157px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
   /* background-color: #467696; */
-  border-radius: 25px;
+  /* border-radius: 25px;
   top: 39px;
   position: relative;
   width: 70%;
-  left: 15%;
+  left: 15%; */
 }
 
 .pricing .panel-body-free {
@@ -7282,7 +7284,7 @@ footer {
   color: #fff;
   line-height: 40px;
   font-size: 45px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: 0;
 }
 
@@ -7313,12 +7315,12 @@ footer {
 }
 
 .pricing .list-group {
-  padding: 50px 20px 25px;
-  background-color: #f9f9f9;
-  border-top-left-radius: 25px;
+  /* padding: 50px 20px 25px; */
+  background-color: #ffffff;
+  /* border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border: 2px solid #467696;
-  border-bottom: none;
+  border-bottom: none; */
 }
 
 .pricing .list-group li.list-group-item {
@@ -10400,4 +10402,133 @@ div#slider figure {
     height: 350px;
     object-fit: cover;
   }
+
+  .card-wrap {
+    margin-bottom: 20px;
+  }
+}
+
+/* cards */
+
+.card-wrap {
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  color: var(--color-text);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  text-align: center;
+}
+.card-header {
+  height: 140px;
+  width: 100%;
+  background: red;
+  border-radius: 100% 0% 100% 0% / 0% 50% 50% 100%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.card-header i {
+  color: #fff;
+  font-size: 72px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.card-text {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.card-btn {
+  border: none;
+  border-radius: 100px;
+  padding: 5px 30px;
+  color: #fff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+:root {
+  --color-text: #616161;
+  --color-text-btn: #ffffff;
+  --card1-gradient-color1: #42abe1;
+  --card1-gradient-color2: #b8e0f4;
+  --card2-gradient-color1: #459594;
+  --card2-gradient-color2: #95cecd;
+  --card3-gradient-color1: #ed8060;
+  --card3-gradient-color2: #fbe3db;
+  --card4-gradient-color1: #225294;
+  --card4-gradient-color2: #6496db;
+
+.card-header.one {
+  background: linear-gradient(
+    to bottom left,
+    var(--card1-gradient-color1),
+    var(--card1-gradient-color2)
+  );
+}
+.card-header.two {
+  background: linear-gradient(
+    to bottom left,
+    var(--card2-gradient-color1),
+    var(--card2-gradient-color2)
+  );
+}
+.card-header.three {
+  background: linear-gradient(
+    to bottom left,
+    var(--card3-gradient-color1),
+    var(--card3-gradient-color2)
+  );
+}
+.card-header.four {
+  background: linear-gradient(
+    to bottom left,
+    var(--card4-gradient-color1),
+    var(--card4-gradient-color2)
+  );
+}
+
+.card-btn.one {
+  background: linear-gradient(
+    to left,
+    var(--card1-gradient-color1),
+    var(--card1-gradient-color2)
+  );
+}
+.card-btn.two {
+  background: linear-gradient(
+    to left,
+    var(--card2-gradient-color1),
+    var(--card2-gradient-color2)
+  );
+}
+.card-btn.three {
+  background: linear-gradient(
+    to left,
+    var(--card3-gradient-color1),
+    var(--card3-gradient-color2)
+  );
+}
+.card-btn.four {
+  background: linear-gradient(
+    to left,
+    var(--card4-gradient-color1),
+    var(--card4-gradient-color2)
+  );
 }

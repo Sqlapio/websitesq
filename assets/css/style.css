@@ -3513,7 +3513,7 @@ footer {
 
 .heading p:first-child {
   font-size: 14px;
-  text-transform: ;
+  /* text-transform: ; */
   color: #2f2f2f;
   font-weight: 500;
   line-height: 1;

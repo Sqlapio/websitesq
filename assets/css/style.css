@@ -1722,7 +1722,7 @@ footer {
 /* Header #2 */
 .full-header {
   height: 60px;
-  background-color: #337ab775;
+  background-color: #ffffff41;
   box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -moz-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -webkit-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
@@ -1819,7 +1819,7 @@ footer {
 }
 
 .full-header .navbar-nav > li > a {
-  color: #ffffff;
+  color: #467696a1;
 }
 
 .full-header .module-search .search-icon i,
@@ -10440,12 +10440,22 @@ div#slider figure {
 .col-mb {
 	top: 65% !important;
 }
+
+.mb-maps {
+	padding-right: 0px;
+}
+
+.mb-maps2 {
+	padding-left: 0;
+}
 }
 
 @media (max-width: 768px) {
 	.wrap-mb {
 		width: 100% !important;
 	} 
+
+	
 }
 
 @media (max-width: 500px) {
@@ -10468,6 +10478,8 @@ div#slider figure {
 .col-mb {
 	top: 65% !important;
 }
+
+
 }
 
 /* cards */
@@ -10594,3 +10606,4 @@ div#slider figure {
     var(--card4-gradient-color2)
   );
 }
+

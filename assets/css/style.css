@@ -10435,19 +10435,19 @@ div#slider figure {
 
   .card-mb i {
     font-size: 40px !important;
-}
+	}
 
-.col-mb {
-	top: 65% !important;
-}
+	.col-mb {
+		top: 65% !important;
+	}
 
-.mb-maps {
-	padding-right: 0;
-}
+	.mb-maps {
+		padding-right: 0;
+	}
 
-.mb-maps2 {
-	padding-left: 0;
-}
+	.mb-maps2 {
+		padding-left: 0;
+	}
 }
 
 @media (max-width: 768px) {

@@ -1722,7 +1722,7 @@ footer {
 /* Header #2 */
 .full-header {
   height: 60px;
-  background-color: #337ab775;
+  background-color: #ffffff;
   box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -moz-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -webkit-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
@@ -10081,27 +10081,26 @@ footer hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1400px) {
-	.title-p {
-		position: absolute;
-		top: 56px;
-		left: 92px;
-		transform: translate(-50%, -50%);
-		color: #777;
-		font-size: 50px;
-		font-family: fantasy;
-	
-	}
+  .title-p {
+    position: absolute;
+    top: 56px;
+    left: 92px;
+    transform: translate(-50%, -50%);
+    color: #777;
+    font-size: 50px;
+    font-family: fantasy;
+  }
 
-	.text-p {
-		position: absolute;
-		top: 166px;
-		left: 157px;
-		transform: translate(-50%, -50%);
-		color: black;
-		font-size: 20px;
-		width: 271px;
-		line-height: 30px;
-	}
+  .text-p {
+    position: absolute;
+    top: 166px;
+    left: 157px;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+    width: 271px;
+    line-height: 30px;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -10130,7 +10129,7 @@ footer hr {
     font-size: 15px !important;
     width: 200px !important;
     line-height: 19px !important;
-	}
+  }
 
   .btn-nav-mb {
     display: flex;
@@ -10173,7 +10172,7 @@ footer hr {
     width: 131px !important;
     line-height: 19px !important;
     text-align: center;
-}
+  }
 
   .title-banner {
     top: 68px !important;
@@ -10221,14 +10220,14 @@ footer hr {
 }
 
 .text-p {
-	position: absolute;
-    top: 229px;
-    left: 238px;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 25px;
-    width: 405px;
-    line-height: 40px;
+  position: absolute;
+  top: 229px;
+  left: 238px;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 25px;
+  width: 405px;
+  line-height: 40px;
 }
 
 .btn-nav-mb {
@@ -10430,52 +10429,52 @@ div#slider figure {
   }
 
   .card-mb {
-	height: 90px !important;
+    height: 90px !important;
   }
 
   .card-mb i {
     font-size: 40px !important;
-}
+  }
 
-.col-mb {
-	top: 65% !important;
-}
+  .col-mb {
+    top: 65% !important;
+  }
 
-.mb-maps {
-	padding-right: 0;
-}
+  .mb-maps {
+    padding-right: 0;
+  }
 
-.mb-maps2 {
-	padding-left: 0;
-}
+  .mb-maps2 {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
-	.wrap-mb {
-		width: 100% !important;
-	} 
+  .wrap-mb {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 500px) {
-.card-header {
+  /* .card-header {
 		height: 66px !important;
-  }
-  
-  .card-header i{
-		font-size: 30px !important;
+  } */
+
+  .card-header i {
+    font-size: 30px !important;
   }
 
   .card-title {
     font-size: 11px !important;
-}
+  }
 
-.wrap-mb {
-	width: 100% !important;
-} 
+  .wrap-mb {
+    width: 100% !important;
+  }
 
-.col-mb {
-	top: 65% !important;
-}
+  .col-mb {
+    top: 65% !important;
+  }
 }
 
 /* cards */
@@ -10545,62 +10544,61 @@ div#slider figure {
   --card4-gradient-color1: #225294;
   --card4-gradient-color2: #6496db;
 
-.card-header.one {
-  background: linear-gradient(
-    to bottom left,
-    var(--card1-gradient-color1),
-    var(--card1-gradient-color2)
-  );
-}
-.card-header.two {
-  background: linear-gradient(
-    to bottom left,
-    var(--card2-gradient-color1),
-    var(--card2-gradient-color2)
-  );
-}
-.card-header.three {
-  background: linear-gradient(
-    to bottom left,
-    var(--card3-gradient-color1),
-    var(--card3-gradient-color2)
-  );
-}
-.card-header.four {
-  background: linear-gradient(
-    to bottom left,
-    var(--card4-gradient-color1),
-    var(--card4-gradient-color2)
-  );
-}
+  .card-header.one {
+    background: linear-gradient(
+      to bottom left,
+      var(--card1-gradient-color1),
+      var(--card1-gradient-color2)
+    );
+  }
+  .card-header.two {
+    background: linear-gradient(
+      to bottom left,
+      var(--card2-gradient-color1),
+      var(--card2-gradient-color2)
+    );
+  }
+  .card-header.three {
+    background: linear-gradient(
+      to bottom left,
+      var(--card3-gradient-color1),
+      var(--card3-gradient-color2)
+    );
+  }
+  .card-header.four {
+    background: linear-gradient(
+      to bottom left,
+      var(--card4-gradient-color1),
+      var(--card4-gradient-color2)
+    );
+  }
 
-.card-btn.one {
-  background: linear-gradient(
-    to left,
-    var(--card1-gradient-color1),
-    var(--card1-gradient-color2)
-  );
+  .card-btn.one {
+    background: linear-gradient(
+      to left,
+      var(--card1-gradient-color1),
+      var(--card1-gradient-color2)
+    );
+  }
+  .card-btn.two {
+    background: linear-gradient(
+      to left,
+      var(--card2-gradient-color1),
+      var(--card2-gradient-color2)
+    );
+  }
+  .card-btn.three {
+    background: linear-gradient(
+      to left,
+      var(--card3-gradient-color1),
+      var(--card3-gradient-color2)
+    );
+  }
+  .card-btn.four {
+    background: linear-gradient(
+      to left,
+      var(--card4-gradient-color1),
+      var(--card4-gradient-color2)
+    );
+  }
 }
-.card-btn.two {
-  background: linear-gradient(
-    to left,
-    var(--card2-gradient-color1),
-    var(--card2-gradient-color2)
-  );
-}
-.card-btn.three {
-  background: linear-gradient(
-    to left,
-    var(--card3-gradient-color1),
-    var(--card3-gradient-color2)
-  );
-}
-.card-btn.four {
-  background: linear-gradient(
-    to left,
-    var(--card4-gradient-color1),
-    var(--card4-gradient-color2)
-  );
-}
-
-

@@ -22,6 +22,10 @@
       type="text/css"
     />
 
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <!-- Stylesheets
 ============================================= -->
     <link href="assets/css/external.css" rel="stylesheet" />
@@ -63,103 +67,90 @@ function googleTranslateElementInit() {
     <!-- Header
 ============================================= -->
     <header id="navbar-spy" class="full-header">
-		<nav id="primary-menu" class="navbar navbar-fixed-top style-1">
-		  <div class="row" >
-			<div class="container">
-			  <!-- Brand and toggle get grouped for better mobile display -->
-			  <div class="navbar-header">
-				<button
-				  type="button"
-				  class="navbar-toggle collapsed"
-				  data-toggle="collapse"
-				  data-target="#bs-example-navbar-collapse-1"
-				  aria-expanded="false"
-				>
-				  <span class="sr-only">Toggle navigation</span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				</button>
-			  </div>
-  
-			  <!-- Collect the nav links, forms, and other content for toggling -->
-			  <div
-				class="collapse navbar-collapse pull-left"
-				id="bs-example-navbar-collapse-1"
-			  >
-				<ul class="nav navbar-nav navbar-left">
-				  <li class="has-dropdown">
-					<a
-					  href="home.html"
-					  data-toggle="dropdown-toggle"
-					  class="dropdown-toggle"
-					  >Home</a
-					>
-				  </li>
-				  <!-- li end -->
-				  <li class="has-dropdown">
-					<a
-					  href="about.html"
-					  data-toggle="dropdown-toggle"
-					  class="dropdown-toggle"
-					  >Nosotros</a
-					>
-				  </li>
-				  <!-- li end -->
-				  <li class="has-dropdown">
-					<a href="#" data-toggle="dropdown" class="dropdown-toggle"
-					  >servicios</a
-					>
-					<ul class="dropdown-menu">
-					  <li>
-						<a href="functionalities.html">funcionalidades</a>
-					  </li>
-					  <li>
-						<a href="goodness.html">BONDADES</a>
-					  </li>
-					</ul>
-				  </li>
-				  <!-- li end -->
-				  <li class="has-dropdown pull-left">
-					<a href="pricing.html" class="dropdown-toggle">PLANES</a>
-				  </li>
-				  <li class="has-dropdown pull-left">
-					<a href="contact.html" class="dropdown-toggle">contacto</a>
-				  </li>
-				  <!-- li end -->
-				</ul>
-			  </div>
-			</div>
-		  </div>
-		</nav>
-	  </header>
-  
+      <nav id="primary-menu" class="navbar navbar-fixed-top style-1">
+        <div class="row">
+          <div class="container" style="padding-left: 5%; width: 100%" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse pull-left"
+              id="bs-example-navbar-collapse-1"
+            >
+              <ul class="nav navbar-nav navbar-left">
+                <li class="has-dropdown">
+                  <a
+                    href="home.html"
+                    data-toggle="dropdown-toggle"
+                    class="dropdown-toggle"
+                    >Home</a
+                  >
+                </li>
+                <!-- li end -->
+                <li class="has-dropdown">
+                  <a
+                    href="about.html"
+                    data-toggle="dropdown-toggle"
+                    class="dropdown-toggle"
+                    >Nosotros</a
+                  >
+                </li>
+                <!-- li end -->
+                <li class="has-dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle"
+                    >servicios</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="functionalities.html">funcionalidades</a>
+                    </li>
+                    <li>
+                      <a href="goodness.html">BONDADES</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- li end -->
+                <li class="has-dropdown pull-left">
+                  <a href="pricing.html" class="dropdown-toggle">PLANES</a>
+                </li>
+                <li class="has-dropdown pull-left">
+                  <a href="contact.html" class="dropdown-toggle">contacto</a>
+                </li>
+                <li class="has-dropdown pull-left">
+                  <a href="https://system.sqlapio.com" target="_blank" class="dropdown-toggle" class="btn-ingr">ingresa al sistema</a>
+                </li>
+                <!-- li end -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- Banner
 ============================================= -->
 
-    <section id="hero" class="hero hero-3">
-      <div id="carrusel-contenido">
-        <div id="carrusel-caja">
-          <div class="carrusel-elemento">
-            <img class="imagenes" src="assets/images/imagen-baner1.jpg" />
-          </div>
-          <div class="carrusel-elemento">
-            <img class="imagenes" src="assets/images/imagen-baner2.jpg" />
-          </div>
-          <div class="carrusel-elemento">
-            <img class="imagenes" src="assets/images/imagen-baner3.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <!-- <div id="slider">
-        <figure>
-          <img src="assets/images/imagen-baner1.jpg" alt="" />
-          <img src="assets/images/imagen-baner2.jpg" alt="" />
-          <img src="assets/images/imagen-baner3.jpg" alt="" />
-        </figure>
-      </div> -->
+    <div class="carousel"
+      data-flickity='{ "wrapAround": true, "autoPlay": 10000 }'>
+      <div class="carousel-cell-1"></div>
+      <div class="carousel-cell-2"></div>
+      <div class="carousel-cell-3"></div>
+    </div>
+      
 
       <!-- <div class="rev_slider_wrapper">
         <div id="slider1" class="rev_slider" data-version="5.0">
@@ -206,34 +197,23 @@ function googleTranslateElementInit() {
     </section>
 
     <!-- Call to action -->
-    <section id="cta-2" class="cta cta-5 pb-0 bg-white">
+    <section id="cta-2" class="cta cta-5 pb-0 bg-white" style="padding: 84px 0px 14px;">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="cta-2">
-              <div
-                class="row btn-mb"
-                style="display: flex; align-items: center"
-              >
-                <div
-                  class="col-xs-12 col-sm-12 col-md-12"
-                  style="
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+              <div class="row btn-mb" style="display: flex; align-items: center">
+                <div class="col-xs-12 col-sm-12 col-md-12" style="    display: flex;
+                flex-direction: column;
+                align-items: center;
                   "
                 >
-                  <p style="color: black; text-align: center">
-                    Incrementa tus ingresós a través una de gestión rápida y
-                    eficiente.
+                  <p style="color: black; text-align: center; font-size: 20px; font-weight: 900; margin-bottom: 0;">
+                    Incrementa tus ingresós a través una de gestión rápida y eficiente.
                   </p>
-                  <a
-                    class="btn btn-reg text-capitalize"
-                    href="https://system.sqlapio.com/public/payment-form/1"
-                    target="_blank"
-                    style="width: 200px"
-                    >Registrate</a
-                  >
+                  <a class="btn-ingresa text-center" target="_blank" href="https://sqlapio.com/public/payment-form/1">
+                    <img src="assets/images/logo/Registrate-Gratis_bv.png" alt="sqlapio">
+                  </a>
                 </div>
               </div>
             </div>
@@ -254,9 +234,9 @@ function googleTranslateElementInit() {
             <img class="img-proy" src="assets/images/1.png" alt="interior" />
             <p
               class="text-center"
-              style="color: #434141; font-size: 20px; margin-top: 15px"
+              style="color: #434141; font-size: 20px; margin-top: 15px; font-weight: 900;"
             >
-              Recordatorio de citas a tu paciente.
+              Recordatorio de citas.
             </p>
           </div>
 
@@ -264,9 +244,9 @@ function googleTranslateElementInit() {
             <img class="img-proy" src="assets/images/3.jpg" alt="interior" />
             <p
               class="text-center"
-              style="color: #434141; font-size: 20px; margin-top: 15px"
+              style="color: #434141; font-size: 20px; margin-top: 15px; font-weight: 900;"
             >
-              Inteligencia artificial (IA) para el diagnóstico en consulta.
+              Inteligencia Artificial (IA) para el diagnóstico en consulta.
             </p>
           </div>
 
@@ -274,7 +254,7 @@ function googleTranslateElementInit() {
             <img class="img-proy" src="assets/images/2.jpg" alt="interior" />
             <p
               class="text-center"
-              style="color: #434141; font-size: 20px; margin-top: 15px"
+              style="color: #434141; font-size: 20px; margin-top: 15px; font-weight: 900;"
             >
               Gestión estratégica de recursos médicos.
             </p>
@@ -298,33 +278,42 @@ function googleTranslateElementInit() {
             <div class="row justify-content-center">
               <div class="col-xs-12 col-sm-12 col-md-8 col-mb" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex;
               align-items: flex-end;">
-                  <div class="col-xs-4 col-sm-4 col-md-4" style="display: flex; justify-content: center;">
-                    <div class="card-wrap wrap-mb" style="width: 70%;">
-                      <div class="card-header two card-mb">
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                      <div class="card-content">
+
+                    <div class="col-xs-4 col-sm-4 col-md-4" style="display: flex; justify-content: center;">
+                      <div class="card-wrap wrap-mb" style="width: 70%;">
+                        <a href="pricingMedic.html">
+                        <div class="card-header two card-mb">
+                          <i class="fa fa-file-text-o"></i>
+                        </div>
+                        <div class="card-content">
                         <h1 class="card-title">PLAN </br>PROFESIONAL</h1>
                       </div>
+                    </a>
                     </div>
                   </div>
+              
                   <div class="col-xs-4 col-sm-4 col-md-4" style="display: flex; justify-content: center;">
                     <div class="card-wrap wrap-mb" style="width: 70%;  margin-bottom: 20%;">
-                      <div class="card-header three card-mb">
-                        <i class="fa fa-diamond"></i>
-                      </div>
-                      <div class="card-content">
-                        <h1 class="card-title">PLAN </br>ILIMITADO</h1>
-                      </div>
+                      <a href="pricingMedic.html">
+                        <div class="card-header three card-mb">
+                          <i class="fa fa-diamond"></i>
+                        </div>
+                        <div class="card-content">
+                          <h1 class="card-title">PLAN </br>ILIMITADO</h1>
+                        </div>
+                      </a>
                     </div>
                   </div>
                   <div class="col-xs-4 col-sm-4 col-md-4" style="display: flex; justify-content: center;">
                     <div class="card-wrap wrap-mb" style="width: 70%;">
-                      <div class="card-header four card-mb">
-                        <i class="fa fa-users"></i>
-                      </div>
-                      <div class="card-content">
+                      <a href="pricingCorp.html">
+
+                        <div class="card-header four card-mb">
+                          <i class="fa fa-users"></i>
+                        </div>
+                        <div class="card-content">
                         <h1 class="card-title">PLAN </br>CORPORATIVO</h1>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -343,7 +332,7 @@ function googleTranslateElementInit() {
         <div class="item-bg bg-overlay">
           <div class="bg-section2">
             <img
-              src="assets/images/mision.png"
+              src="assets/images/mision.jpg"
               alt="Background"
               style="
                 width: 100%;
@@ -380,10 +369,10 @@ function googleTranslateElementInit() {
               <div class="widget-contact-info">
                 <p class="text-capitalize text-white">Visítanos</p>
                 <p class="text-capitalize font-heading">
-        <i class="fa fa-map-marker" aria-hidden="true"></i> 3785 NW 82 AV SUITE 215 Doral FLORIDA 33166
+        <i class="fa fa-map-marker" aria-hidden="true"></i> <strong>ESTADOS UNIDOS</strong> 3785 NW 82 AV SUITE 215 Doral FLORIDA 33166
         </br>
         </br>
-        <i class="fa fa-map-marker" aria-hidden="true"></i> Centro Comercial Xpress - Macaracuay. Torre Principal, Oficina 7,
+        <i class="fa fa-map-marker" aria-hidden="true"></i> <strong>VENEZUELA</strong> Centro Comercial Xpress - Macaracuay. Torre Principal, Oficina 7,
                   Piso 7 1071, Caracas Venezuela.
                 </p>
               </div>
@@ -406,10 +395,10 @@ function googleTranslateElementInit() {
               <div class="widget-contact-info">
                 <p class="text-capitalize text-white">Llámenos</p>
                 <p class="text-capitalize font-heading">
-        <strong>USA:</strong>  +13059568129
+        <strong>ESTADOS UNIDOS:</strong>  3059568120
         </br>
         </br>
-        <strong>VENEZUELA:</strong> 0414 736.53.09 / 0424 173.43.09
+        <strong>VENEZUELA:</strong> 0414 736.53.09 / 0212 793.97.39
       </p>
               </div>
             </div>
@@ -460,7 +449,7 @@ function googleTranslateElementInit() {
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 copyrights text-center">
         <p class="text-capitalize">
-          © 2023 Copyright: All rights reserved. by StarkMedios
+          © 2023 Copyright: All rights reserved. by SQLAPIO TECHNOLOGY LLC
         </p>
       </div>
     </div>
@@ -550,10 +539,9 @@ function googleTranslateElementInit() {
             },
           },
           gridwidth: 1230,
-          gridheight: 700,
+          gridheight: 100,
         });
       });
     </script>
   </body>
 </html>
-

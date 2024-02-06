@@ -1271,23 +1271,10 @@ footer {
   border-color: #fff;
 }
 
-.btn-ingresa {
-  width: 40%;
-  text-align: end;  
-}
-
 .btn-ingresa img {
-  width: 90%;
-  text-align: end;
+  width: 40%;
   /* display: block; */
 }
-
-/* .btn-ingresa img:last-of-type {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	opacity: 0;
-} */
 
 /* .btn-ingresa:hover img {
 	opacity: 1;
@@ -2850,12 +2837,12 @@ footer {
   .container {
     width: 100%;
     padding-left: 15px !important;
-  } 
+  }
 
   .full-header .navbar-header {
     margin-left: 15px;
     margin-right: 0;
-}
+  }
 
   .navbar-toggle {
     border-color: #467696;
@@ -10102,7 +10089,7 @@ footer hr {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 @media only screen and (min-width: 992px) and (max-width: 1400px) {
   .title-p {
@@ -10271,12 +10258,12 @@ footer hr {
   color: #29bced;
 }
 
-.rev_slider_wrapper {	
+.rev_slider_wrapper {
   height: 100vh !important;
-  width: 100%!important;
+  width: 100% !important;
 }
 
-.slider1 {	
+.slider1 {
   height: 100vh !important;
 }
 
@@ -10441,9 +10428,7 @@ div#slider figure {
   .mb-maps2 {
     padding-left: 0;
   }
-
 }
-
 
 @media (max-width: 768px) {
   .wrap-mb {
@@ -10476,7 +10461,7 @@ div#slider figure {
     width: 100%;
     height: 80vh;
     margin-right: 10px;
-    background-image: url(../../assets/images/prueba.jpeg) !important;
+    background-image: url(../../assets/images/mobile.jpg) !important;
     background-size: 100% 100%;
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
@@ -10485,7 +10470,7 @@ div#slider figure {
     width: 100%;
     height: 80vh;
     margin-right: 10px;
-    background-image: url(../../assets/images/prueba.jpeg) !important;
+    background-image: url(../../assets/images/mobile2.jpg) !important;
     background-size: 100% 100%;
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
@@ -10494,10 +10479,14 @@ div#slider figure {
     width: 100%;
     height: 80vh;
     margin-right: 10px;
-    background-image: url(../../assets/images/prueba.jpeg) !important;
+    background-image: url(../../assets/images/mobile.jpg) !important;
     background-size: 100% 100%;
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
+  }
+
+  .btn-ingresa img {
+    width: 73% !important;
   }
 }
 
@@ -10627,11 +10616,10 @@ div#slider figure {
   }
 }
 
-
 /*  */
 
 .carousel {
-  background: #EEE;
+  background: #eee;
 }
 
 .carousel-cell-1 {
@@ -10696,7 +10684,7 @@ div#slider figure {
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
-  
+
   .carousel-cell-2 {
     width: 100%;
     height: 600px;
@@ -10706,7 +10694,7 @@ div#slider figure {
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
-  
+
   .carousel-cell-3 {
     width: 100%;
     height: 600px;
@@ -10728,7 +10716,7 @@ div#slider figure {
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
-  
+
   .carousel-cell-2 {
     width: 100%;
     height: 400px;
@@ -10738,7 +10726,7 @@ div#slider figure {
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
-  
+
   .carousel-cell-3 {
     width: 100%;
     height: 400px;
@@ -10760,7 +10748,7 @@ div#slider figure {
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
-  
+
   .carousel-cell-2 {
     width: 100%;
     height: 400px;
@@ -10770,7 +10758,7 @@ div#slider figure {
     /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
-  
+
   .carousel-cell-3 {
     width: 100%;
     height: 400px;

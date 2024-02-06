@@ -2648,6 +2648,7 @@ footer {
   .full-header .module-search .search-icon i,
   .full-header .module-cart .cart-icon {
     color: #fff;
+    
   }
 
   .full-header .navbar-header {
@@ -2808,6 +2809,10 @@ footer {
 
   .header-7.style-4 .container.outer {
     margin-top: 0;
+  }
+
+  .cont-nav {
+    padding-left: 0;
   }
 }
 

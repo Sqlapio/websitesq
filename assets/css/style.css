@@ -53,7 +53,10 @@ html {
 }
 
 body {
-  background-color: #fff;
+  /* background-color: #fff; */
+  /* background: url({{ asset('img/fondo-secr.jpg') }}) no-repeat top center fixed !important; */
+  background-image: url(../../assets/images/PLANTILLA-PAGINA-WEB-CON-LOGO.png) !important;
+  background-size: 100% 100%;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1721,7 +1724,7 @@ footer {
 /* Header #2 */
 .full-header {
   height: 0px;
-  background-color: #ffffff;
+  background-color: #2f2f2fcf;
   box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -moz-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
   -webkit-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
@@ -2433,9 +2436,18 @@ footer {
     margin-left: 0;
   }
 
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    width: 104% ;
+    background-color: #2f2f2fcf;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+
   .container > .navbar-collapse {
     width: 100%;
-    background-color: #2f2f2f;
+    background-color: #2f2f2fcf;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0px;
@@ -2832,6 +2844,17 @@ footer {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 340px;
+    width: 100% ;
+  }
+
+  .cont-nav {
+    padding-left: 1% !important;
+  }
+  
   .navbar-header {
     float: left !important;
     /* margin-right: auto; */
@@ -2883,6 +2906,19 @@ footer {
 
   .navbar-nav > li {
     float: none;
+  }
+
+  .navbar-right {
+    float: left !important;
+  }
+
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    width: 104% ;
+    background-color: #2f2f2fcf;
+    margin-right: 15px;
+    margin-left: 0;
+    margin-top: 0px;
   }
 
   .container > .navbar-collapse {
@@ -9431,7 +9467,7 @@ input[aria-invalid="true"] {
 #FOOTER-SECTION
 \*------------------------------------*/
 footer {
-  background-color: #29bced;
+  background-color: transparent;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -9443,7 +9479,7 @@ footer hr {
 }
 
 .widgets-contact {
-  background-color: #29bced;
+  background-color: transparent;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -9556,7 +9592,7 @@ footer hr {
 }
 
 .widget-social {
-  background-color: #29bced;
+  background-color: transparent;
   padding-top: 34px;
   padding-bottom: 34px;
   padding-left: 0;
@@ -10433,11 +10469,53 @@ div#slider figure {
   .mb-maps2 {
     padding-left: 0;
   }
+
+  body {
+    background-image: url(../../assets/images/fondo-telefono.png) !important;
+    background-size: contain;
+  
+  }
 }
 
 @media (max-width: 768px) {
+
+
   .wrap-mb {
     width: 100% !important;
+  }
+
+  .carousel-cell-1 {
+    width: 100%;
+    height: 80vh;
+    margin-right: 10px;
+    background-image: url(../../assets/images/mobile1.jpg) !important;
+    background-size: 100% 100%;
+    counter-increment: carousel-cell;
+  }
+  .carousel-cell-2 {
+    width: 100%;
+    height: 80vh;
+    margin-right: 10px;
+    background-image: url(../../assets/images/mobile2.jpg) !important;
+    background-size: 100% 100%;
+    counter-increment: carousel-cell;
+  }
+  .carousel-cell-3 {
+    width: 100%;
+    height: 80vh;
+    margin-right: 10px;
+    background-image: url(../../assets/images/mobile3.jpg) !important;
+    background-size: 100% 100%;
+    counter-increment: carousel-cell;
+  }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    height: 80vh;
+    margin-right: 10px;
+    background-image: url(../../assets/images/mobile3.jpg) !important;
+    background-size: 100% 100%;
+    counter-increment: carousel-cell;
   }
 }
 
@@ -10462,13 +10540,12 @@ div#slider figure {
     top: 65% !important;
   }
 
-  .carousel-cell-1 {
+  /* .carousel-cell-1 {
     width: 100%;
     height: 80vh;
     margin-right: 10px;
     background-image: url(../../assets/images/mobile1.jpg) !important;
     background-size: 100% 100%;
-    /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
   .carousel-cell-2 {
@@ -10477,7 +10554,6 @@ div#slider figure {
     margin-right: 10px;
     background-image: url(../../assets/images/mobile2.jpg) !important;
     background-size: 100% 100%;
-    /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
   .carousel-cell-3 {
@@ -10486,9 +10562,17 @@ div#slider figure {
     margin-right: 10px;
     background-image: url(../../assets/images/mobile3.jpg) !important;
     background-size: 100% 100%;
-    /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    height: 80vh;
+    margin-right: 10px;
+    background-image: url(../../assets/images/mobile3.jpg) !important;
+    background-size: 100% 100%;
+    counter-increment: carousel-cell;
+  } */
 
   .btn-ingresa img {
     width: 73% !important;
@@ -10624,48 +10708,65 @@ div#slider figure {
 /*  */
 
 .carousel {
-  background: #eee;
+  background: transparent;
+  
 }
 
 .carousel-cell-1 {
   width: 100%;
   height: 100vh;
   margin-right: 10px;
-  background-image: url(../../assets/images/imagen-baner1.jpg);
+  background-image: url(../../assets/images/PAGINA-1.1.png);
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* border-radius: 5px; */
-  counter-increment: carousel-cell;
 }
 
 .carousel-cell-2 {
   width: 100%;
   height: 100vh;
   margin-right: 10px;
-  background-image: url(../../assets/images/imagen-baner2.jpg);
+  background-image: url(../../assets/images/PAGINA-1.2.png);
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* border-radius: 5px; */
-  counter-increment: carousel-cell;
 }
 
 .carousel-cell-3 {
   width: 100%;
   height: 100vh;
   margin-right: 10px;
-  background-image: url(../../assets/images/imagen-baner3.jpg);
+  background-image: url(../../assets/images/PAGINA-1.3.png);
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* border-radius: 5px; */
-  counter-increment: carousel-cell;
 }
 
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+.carousel-cell-4 {
+  width: 100%;
+  height: 100vh;
+  margin-right: 10px;
+  background-image: url(../../assets/images/PAGINA-1.4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+
+
+.carousel-cell-1-1 {
+  width: 100%;
+  height: 100vh;
+  margin-right: 10px;
+  background-image: url(../../assets/images/VISION.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.carousel-cell-2-1 {
+  width: 100%;
+  height: 100vh;
+  margin-right: 10px;
+  background-image: url(../../assets/images/PAGINA-1.2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 
 .flickity-button:hover {
   background: #ffffff3d !important;
@@ -10679,56 +10780,390 @@ div#slider figure {
   box-shadow: 0 0 0 5px #e5e5e591;
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1024px) {
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+
+  .carousel {
+    height: 75vh;
+  }
+
   .carousel-cell-1 {
     width: 100%;
-    height: 600px;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-3 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .carousel-cell-1-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1500px) {
+
+  .carousel {
+    height: 70vh;
+  }
+
+  .carousel-cell-1 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-3 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .carousel-cell-1-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1400px) {
+
+  .carousel {
+    height: 68vh;
+  }
+
+  .carousel-cell-1 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-3 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .carousel-cell-1-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+
+  .carousel {
+    height: 60vh;
+  }
+
+  .carousel-cell-1 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-3 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    background-image: url(../../assets/images/PAGINA-1.4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .carousel-cell-1-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .carousel-cell-2-1 {
+    width: 100%;
+    background-image: url(../../assets/images/VISION.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+  .carousel {
+    height: 500px;
+  }
+
+  .carousel-cell-1 {
+    width: 100%;
+    /* height: 600px; */
     margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner1.jpg);
-    background-size: 100% 100%;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-2 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.2.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-3 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.3.png);
+    background-size: contain;
+  }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.4.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-1-1 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/VISION.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-2-1 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/VISION.png);
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+  .carousel {
+    height: 500px;
+  }
+
+  .carousel-cell-1 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-2 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.2.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-3 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.3.png);
+    background-size: contain;
+  }
+  
+  .carousel-cell-4 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.4.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-1-1 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/VISION.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-2-1 {
+    width: 100%;
+    /* height: 600px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/VISION.png);
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+  .carousel {
+    height: 500px;
+  }
+
+  .carousel-cell-1 {
+    width: 100%;
+    /* height: 400px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-size: contain;
     /* border-radius: 5px; */
+  }
+
+  .carousel-cell-2 {
+    width: 100%;
+    /* height: 100%; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.2.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-3 {
+    width: 100%;
+    /* height: 100%; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.3.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-4 {
+    width: 100%;
+    /* height: 100%; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.4.png);
+    background-size: contain;
+  }
+
+  .carousel-cell-1-1 {
+    width: 100%;
+    /* height: 400px; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/VISION.png);
+    background-size: contain;
+    /* border-radius: 5px; */
+  }
+
+  .carousel-cell-2-1 {
+    width: 100%;
+    /* height: 100%; */
+    margin-right: 10px;
+    background-image: url(../../assets/images/VISION.png);
+    background-size: contain;
+  }
+}
+
+/* @media only screen and (min-width: 500px) and (max-width: 767px) {
+  .carousel-cell-1 {
+    width: 100%;
+    height: 400px;
+    margin-right: 10px;
+    background-image: url(../../assets/images/PAGINA-1.1.png);
+    background-size: 100% 100%;
     counter-increment: carousel-cell;
   }
 
   .carousel-cell-2 {
     width: 100%;
-    height: 600px;
-    margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner2.jpg);
-    background-size: 100% 100%;
-    /* border-radius: 5px; */
-    counter-increment: carousel-cell;
-  }
-
-  .carousel-cell-3 {
-    width: 100%;
-    height: 600px;
-    margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner3.jpg);
-    background-size: 100% 100%;
-    /* border-radius: 5px; */
-    counter-increment: carousel-cell;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 990px) {
-  .carousel-cell-1 {
-    width: 100%;
     height: 400px;
     margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner1.jpg);
+    background-image: url(../../assets/images/PAGINA-1.2.png);
     background-size: 100% 100%;
-    /* border-radius: 5px; */
-    counter-increment: carousel-cell;
-  }
-
-  .carousel-cell-2 {
-    width: 100%;
-    height: 400px;
-    margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner2.jpg);
-    background-size: 100% 100%;
-    /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
 
@@ -10736,41 +11171,17 @@ div#slider figure {
     width: 100%;
     height: 400px;
     margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner3.jpg);
+    background-image: url(../../assets/images/PAGINA-1.3.png);
     background-size: 100% 100%;
-    /* border-radius: 5px; */
-    counter-increment: carousel-cell;
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 767px) {
-  .carousel-cell-1 {
-    width: 100%;
-    height: 400px;
-    margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner1.jpg);
-    background-size: 100% 100%;
-    /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
 
-  .carousel-cell-2 {
+  .carousel-cell-4 {
     width: 100%;
     height: 400px;
     margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner2.jpg);
+    background-image: url(../../assets/images/PAGINA-1.4.png);
     background-size: 100% 100%;
-    /* border-radius: 5px; */
     counter-increment: carousel-cell;
   }
-
-  .carousel-cell-3 {
-    width: 100%;
-    height: 400px;
-    margin-right: 10px;
-    background-image: url(../../assets/images/imagen-baner3.jpg);
-    background-size: 100% 100%;
-    /* border-radius: 5px; */
-    counter-increment: carousel-cell;
-  }
-}
+} */

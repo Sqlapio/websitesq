@@ -66,94 +66,84 @@ function googleTranslateElementInit() {
 
     <!-- Header
 ============================================= -->
-    <header id="navbar-spy" class="full-header">
-      <nav id="primary-menu" class="navbar navbar-fixed-top style-1">
-        <div class="row">
-          <div class="cont-nav navbar-right" style="margin-right: 39px;">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-                aria-expanded="false"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
+  <header id="navbar-spy" class="full-header">
+    <nav id="primary-menu" class="navbar navbar-fixed-top style-1">
+      <div class="row">
+        <div class="container cont-nav" style="padding-left: 5%; width: 100%">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div
-              class="collapse navbar-collapse pull-left"
-              id="bs-example-navbar-collapse-1"
-            >
-              <ul class="nav navbar-nav navbar-left">
-                <li class="nav-item">
-                  <a
-                    href="home.html"
-                    data-toggle="dropdown-toggle"
-                    class="dropdown-toggle"
-                    >Inicio</a
-                  >
-                </li>
-                <!-- li end -->
-                <li class="nav-item">
-                  <a
-                    href="about.html"
-                    data-toggle="dropdown-toggle"
-                    class="dropdown-toggle"
-                    >Nosotros</a
-                  >
-                </li>
-                <!-- li end -->
-                <li class="has-dropdown">
-                  <a href="#" data-toggle="dropdown" class="dropdown-toggle"
-                    >servicios</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="functionalities.html">funcionalidades</a>
-                    </li>
-                    <li>
-                      <a href="goodness.html">BONDADES</a>
-                    </li>
-                  </ul>
-                </li>
-                <!-- li end -->
-                <li class="nav-item">
-                  <a href="pricing.html" class="dropdown-toggle">PLANES</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="dropdown-toggle">contacto</a>
-                </li>
-                <li class="has-dropdown">
-                  <a href="#" data-toggle="dropdown" class="dropdown-toggle" >ingresa al sistema</a >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="https://system.sqlapio.com" target="_blank">Sistema Médico</a>
-                    </li>
-                    <li>
-                      <a href="https://system.sqlapio.com/public/patient/query-detaly-patient" target="_blank">Portal de pacientes
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <!-- li end -->
-              </ul>
-              <div class="module module-search pull-left" style="margin-top: 12px;">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse pull-left" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a href="home.html" data-toggle="dropdown-toggle" class="dropdown-toggle">Inicio</a>
+              </li>
+              <!-- li end -->
+              <li class="nav-item">
+                <a href="about.html" data-toggle="dropdown-toggle" class="dropdown-toggle">Nosotros</a>
+              </li>
+              <!-- li end -->
+              <li class="has-dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">servicios</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="functionalities.html">funcionalidades</a>
+                  </li>
+                  <li>
+                    <a href="goodness.html">BONDADES</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- li end -->
+              <li class="nav-item">
+                <a href="pricing.html" class="dropdown-toggle">PLANES</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="dropdown-toggle">contacto</a>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">ingresa al sistema</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="https://system.sqlapio.com" target="_blank">Sistema Médico</a>
+                  </li>
+                  <li>
+                    <a href="https://system.sqlapio.com/public/patient/query-detaly-patient" target="_blank">Portal de
+                      pacientes
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item" style="display: flex; align-items: center;">
                 <img width="40" src="assets/images/logo/language.png" alt="sqlapio">
-                <a href="https://sqlapio.com" class="dropdown-toggle" style="color: #ffffff; font-weight: 700; padding-left: 6px ">ES</a> 
-                <a href="https://en.sqlapio.com" class="dropdown-toggle" style="color: #ffffff; font-weight: 700; padding-left: 7px ">EN</a>
-              </div>
-            </div>
+                <a href="https://sqlapio.com" class="dropdown-toggle"
+                  style="color: #ffffff; font-weight: 700; padding-left: 6px ">ES</a>
+                <a href="https://en.sqlapio.com" class="dropdown-toggle"
+                  style="color: #ffffff; font-weight: 700; padding-left: 7px ">EN</a>
+              </li>
+              <!-- li end -->
+            </ul>
+            <!-- <div class="module module-search pull-left" style="margin-top: 12px;">
+              <img width="40" src="assets/images/logo/language.png" alt="sqlapio">
+              <a href="https://sqlapio.com" class="dropdown-toggle"
+                style="color: #ffffff; font-weight: 700; padding-left: 6px ">ES</a>
+              <a href="https://en.sqlapio.com" class="dropdown-toggle"
+                style="color: #ffffff; font-weight: 700; padding-left: 7px ">EN</a>
+            </div> -->
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
     <!-- Banner
 ============================================= -->
@@ -162,6 +152,7 @@ function googleTranslateElementInit() {
       <div class="carousel-cell-2"></div>
       <div class="carousel-cell-3"></div>
       <div class="carousel-cell-4"></div>
+      <div class="carousel-cell-5"></div>
     </div>
       
 
@@ -195,7 +186,19 @@ function googleTranslateElementInit() {
     </div>
   </section>
 
-    <section id="projects" class="projects-grid projects-3col" style="padding-top: 0;">
+  <section></section>
+    <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": 10000}'>
+      <div class="carousel-cell-1-2"></div>
+      <div class="carousel-cell-2-2"></div>
+      <div class="carousel-cell-2-3"></div>
+      <div class="carousel-cell-2-4"></div>
+      <div class="carousel-cell-2-5"></div>
+      <div class="carousel-cell-2-6"></div>
+      <div class="carousel-cell-2-7"></div>
+    </div>
+  </section>
+
+    <!-- <section id="projects" class="projects-grid projects-3col" style="padding-top: 0;">
       <div
         class="container"
         style="margin-left: 0; margin-right: 0; width: 100%"
@@ -232,11 +235,11 @@ function googleTranslateElementInit() {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Heading #2
 ============================================= -->
-    <section id="hero-2" class="hero-2">
+    <!-- <section id="hero-2" class="hero-2">
       <div class="item">
         <div class="item-bg bg-overlay">
           <div class="bg-section2">
@@ -293,7 +296,7 @@ function googleTranslateElementInit() {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Shortcode #2 
 ============================================= -->
@@ -302,11 +305,11 @@ function googleTranslateElementInit() {
       <div class="item">
         <div class="item-bg bg-overlay">
           <div class="bg-section2">
-            <img src="assets/images/mision.jpg" alt="Background" style=" width: 100%; border-bottom-left-radius: 75% 50%; position: relative; display: inline-block; text-align: center; " />
-            <p class="title-p">MISIÓN</p>
+            <img src="assets/images/PLANES.png" alt="Background" style=" width: 100%; position: relative; display: inline-block; text-align: center; " />
+            <!-- <p class="title-p">MISIÓN</p>
             <p class="text-p"> Optimizar la gestión médica para brindar operatividad, rapidez y
               eficiencia en el manejo de recursos médicos.
-            </p>
+            </p> -->
           </div>
         </div>
       </div>

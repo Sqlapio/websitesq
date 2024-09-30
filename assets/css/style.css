@@ -55,14 +55,61 @@ html {
 body {
   /* background-color: #fff; */
   /* background: url({{ asset('img/fondo-secr.jpg') }}) no-repeat top center fixed !important; */
-  background-image: url(../../assets/images/PLANTILLA-PAGINA-WEB-CON-LOGO.png) !important;
-  background-size: 100% 100%;
+  /* background-image: url(../../assets/images/PLANTILLA-PAGINA-WEB-CON-LOGO.png) !important;
+  background-size: 100% 100%; */
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #828282;
   line-height: 1.5;
   margin: 0;
+}
+
+.home {
+  background-image: url(../../assets/images/PLANTILLA-PAGINA-WEB-CON-LOGO.png) !important;
+  background-size: 100%;
+}
+
+.about {
+  background-image: url(../../assets/images/FONDO-DE-I.A.png) !important;
+  background-size: 100%;
+}
+
+.plans {
+  background-image: url(../../assets/images/FONDO-DE-I.A.png) !important;
+  background-size: 100%;
+}
+
+.func {
+  background-image: url(../../assets/images/FONDO-COMPLETO-FUNCIONALIDADES.png) !important;
+  background-size: 100%;
+}
+
+.funcionalidades {
+  background-image: url(../../assets/images/FONDO-FUNSIONALIDADES.png) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.plan-med {
+  background-image: url(../../assets/images/PLAN-MEDICO-PRECIOS-FONDO.png) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.planes {
+  background-image: url(../../assets/images/FONDO-PLANES.png) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.plan-corp {
+  background-image: url(../../assets/images/PLAN-CORPORATIVO-INDIVIDUAL.png) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 * {
@@ -9736,6 +9783,10 @@ footer hr {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .correo{
+    padding-left: 27px !important;
+  }
+
   .widgets-links {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -9743,7 +9794,7 @@ footer hr {
 
   .widgets-contact .widget-contact-info p:last-child {
     font-size: 12px;
-    width: 195px;
+    width: 80%;
     margin-left: 96px;
   }
 
@@ -9807,6 +9858,10 @@ footer hr {
   .widgets-links {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .correo{
+    padding-left: 15px !important;
   }
 }
 
@@ -10476,10 +10531,14 @@ div#slider figure {
     padding-left: 0;
   }
 
-  body {
+  .home {
     background-image: url(../../assets/images/fondo-telefono.png) !important;
-    background-size: contain;
+    background-size: 100%;
+  }
   
+  .about {
+    background-image: url(../../assets/images/fondo-telefono.png) !important;
+    background-size: 100%;
   }
 }
 
@@ -10495,7 +10554,7 @@ div#slider figure {
     height: 80vh;
     margin-right: 10px;
     background-image: url(../../assets/images/mobile1.jpg) !important;
-    background-size: 100% 100%;
+    background-size: 100%;
     counter-increment: carousel-cell;
   }
   .carousel-cell-2 {
@@ -10503,7 +10562,7 @@ div#slider figure {
     height: 80vh;
     margin-right: 10px;
     background-image: url(../../assets/images/mobile2.jpg) !important;
-    background-size: 100% 100%;
+    background-size: 100%;
     counter-increment: carousel-cell;
   }
   .carousel-cell-3 {
@@ -10511,7 +10570,7 @@ div#slider figure {
     height: 80vh;
     margin-right: 10px;
     background-image: url(../../assets/images/mobile3.jpg) !important;
-    background-size: 100% 100%;
+    background-size: 100%;
     counter-increment: carousel-cell;
   }
   
@@ -10520,7 +10579,7 @@ div#slider figure {
     height: 80vh;
     margin-right: 10px;
     background-image: url(../../assets/images/mobile3.jpg) !important;
-    background-size: 100% 100%;
+    background-size: 100%;
     counter-increment: carousel-cell;
   }
 }
@@ -10715,7 +10774,7 @@ div#slider figure {
 
 .carousel {
   background: transparent;
-  
+  height: 100vh;
 }
 
 .carousel-cell-1 {
@@ -10724,7 +10783,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/PAGINA-1.1.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-2 {
@@ -10733,7 +10792,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/PAGINA-1.2.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-3 {
@@ -10742,7 +10801,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/PAGINA-1.3.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-4 {
@@ -10751,7 +10810,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/PAGINA-1.4.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-5 {
@@ -10760,7 +10819,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/PAGINA-1.5.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 
@@ -10770,7 +10829,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/VISION.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-2-1 {
@@ -10779,7 +10838,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/MISION1.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-1-2 {
@@ -10788,7 +10847,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/a1.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-2-2 {
@@ -10797,7 +10856,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/a2.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-2-3 {
@@ -10806,7 +10865,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/a3.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-2-4 {
@@ -10815,7 +10874,7 @@ div#slider figure {
   margin-right: 10px;
   background-image: url(../../assets/images/a4.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .carousel-cell-2-5 {
@@ -10858,10 +10917,26 @@ div#slider figure {
   box-shadow: 0 0 0 5px #e5e5e591;
 }
 
+.flickity-page-dots {
+  bottom: 10px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
 @media only screen and (min-width: 1501px) and (max-width: 1600px) {
 
   .carousel {
-    height: 75vh;
+    height: 90vh;
   }
 
   .carousel-cell-1 {
@@ -10966,7 +11041,7 @@ div#slider figure {
 @media only screen and (min-width: 1401px) and (max-width: 1500px) {
 
   .carousel {
-    height: 70vh;
+    height: 80vh;
   }
 
   .carousel-cell-1 {
@@ -11072,7 +11147,7 @@ div#slider figure {
 @media only screen and (min-width: 1301px) and (max-width: 1400px) {
 
   .carousel {
-    height: 68vh;
+    height: 90vh;
   }
 
   .carousel-cell-1 {
@@ -11178,7 +11253,7 @@ div#slider figure {
 @media only screen and (min-width: 1025px) and (max-width: 1300px) {
 
   .carousel {
-    height: 60vh;
+    height: 75vh;
   }
 
   .carousel-cell-1 {
@@ -11284,7 +11359,7 @@ div#slider figure {
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
 
   .carousel {
-    height: 500px;
+    height: 80vh;
   }
 
   .carousel-cell-1 {
@@ -11390,120 +11465,6 @@ div#slider figure {
     background-size: contain;
     background-image: url(../../assets/images/a7.png);
   }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1024px) {
-
-  .carousel {
-    height: 500px;
-  }
-
-  .carousel-cell-1 {
-    width: 100%;
-    /* height: 600px; */
-    margin-right: 10px;
-    background-image: url(../../assets/images/PAGINA-1.1.png);
-    background-size: contain;
-  }
-
-  .carousel-cell-2 {
-    width: 100%;
-    /* height: 600px; */
-    margin-right: 10px;
-    background-image: url(../../assets/images/PAGINA-1.2.png);
-    background-size: contain;
-  }
-
-  .carousel-cell-3 {
-    width: 100%;
-    /* height: 600px; */
-    margin-right: 10px;
-    background-image: url(../../assets/images/PAGINA-1.3.png);
-    background-size: contain;
-  }
-  
-  .carousel-cell-4 {
-    width: 100%;
-    /* height: 600px; */
-    margin-right: 10px;
-    background-image: url(../../assets/images/PAGINA-1.4.png);
-    background-size: contain;
-  }
-
-  .carousel-cell-5 {
-    width: 100%;
-    background-image: url(../../assets/images/PAGINA-1.5.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .carousel-cell-1-1 {
-    width: 100%;
-    /* height: 600px; */
-    margin-right: 10px;
-    background-image: url(../../assets/images/VISION.png);
-    background-size: contain;
-  }
-  
-  .carousel-cell-1-2 {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(../../assets/images/a1.png);
-  }
-
-  .carousel-cell-2-1 {
-    width: 100%;
-    /* height: 600px; */
-    margin-right: 10px;
-    background-image: url(../../assets/images/MISION1.png);
-    background-size: contain;
-
-  }
-
-    
-    .carousel-cell-2-2 {
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-image: url(../../assets/images/a2.png);
-    }
-    
-    .carousel-cell-2-3 {
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-image: url(../../assets/images/a3.png);
-    }
-    
-    .carousel-cell-2-4 {
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-image: url(../../assets/images/a4.png);
-    }
-    
-    .carousel-cell-2-5 {
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-image: url(../../assets/images/a5.png);
-    }
-    
-    .carousel-cell-2-6 {
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-image: url(../../assets/images/a6.png);
-    }
-    
-    .carousel-cell-2-7 {
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-image: url(../../assets/images/a7.png);
-    }
-  
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
